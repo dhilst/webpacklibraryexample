@@ -4,7 +4,7 @@
   "main": "dist/helloworld.js",
   "license": "MIT",
   "scripts": {
-      "install": "webpack"
+      "build": "webpack"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
