@@ -1,0 +1,14 @@
+{
+  "name": "webpacklibraryexample",
+  "version": "1.0.0",
+  "main": "dist/helloworld.js",
+  "license": "MIT",
+  "scripts": {
+      "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.4.1"
+  }
+}
