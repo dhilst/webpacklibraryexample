@@ -4,11 +4,20 @@
   "main": "dist/helloworld.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest",
+    "check": "flow",
+    "lint": "eslint src/app.js"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-cli": "^1.1.1",
+    "flow-bin": "^0.69.0",
+    "jest": "^22.4.3",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13"
   }
