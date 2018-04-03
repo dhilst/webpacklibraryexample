@@ -4,7 +4,7 @@
   "main": "dist/helloworld.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "prepare": "webpack",
     "test": "jest",
     "check": "flow",
     "lint": "eslint src/app.js"
