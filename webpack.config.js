@@ -4,6 +4,7 @@ module.exports = {
     output: {
         filename: "helloworld.js",
         path: path.resolve(__dirname, "dist"),
+        library: "helloworld",
         libraryTarget: "umd",
     },
     mode: process.env.NODE_ENV || "production",
