@@ -4,6 +4,7 @@
   "main": "dist/helloworld.js",
   "license": "MIT",
   "scripts": {
+    "prepare": "echo prepared"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
